@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Water App",
+    "slug": "water_app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/tea.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/tea.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/tea.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.water_app"
+    },
+    "web": {
+      "favicon": "./assets/tea.png"
+    }
+  }
+}
